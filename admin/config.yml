@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: engpiaia/engpiaia
+  branch: main
+
+media_folder: assets/uploads
+public_folder: /assets/uploads
+locale: pt
+
+collections:
+  - name: site
+    label: Landing Page
+    files:
+      - name: conteudo
+        label: Conteúdo principal
+        file: content/site.yml
+        fields:
+          - { label: Nome, name: name, widget: string }
+          - { label: Chamada, name: headline, widget: string }
+          - { label: Sobre, name: about, widget: markdown }
+          - label: Projetos
+            name: projects
+            widget: list
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Descrição, name: description, widget: text }
+              - { label: Link, name: url, widget: string }
