@@ -1,9 +1,6 @@
 name: Anderson Piaia dos Santos
-headline: Engenharia, Triade Engenharia e desenvolvimento de software em uma landing page retrô.
-about: >-
-  Engenheiro mecânico, empresário e desenvolvedor em formação, com atuação em Chapecó/SC,
-  experiência na Triade Engenharia e foco atual em Java, Spring Boot, SQL, Git/GitHub,
-  arquitetura de software, testes e modelagem de dados.
+headline: Engenharia e desenvolvimento de software.
+about: Engenheiro mecânico, empresário e desenvolvedor em formação, com atuação em Chapecó/SC, experiência de 20 anos em engenharia, proprietário da Triade Engenharia, atualmente aprendiz em Java, Spring Boot, SQL, Git/GitHub, arquitetura de software, testes e modelagem de dados.
 projects:
   - title: CadastroContrato
     description: Projeto Integrador Contratech para cadastro e gerenciamento de contratos.
